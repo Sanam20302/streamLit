@@ -1,9 +1,9 @@
 import streamlit as st
 st.title("Hey all")
 name = st.text_input("Type your name")
-print(name, "How are you?")
+st.write(name, "How are you?")
 bla = st.text_input("FIne or Not fine")
 if bla == "Fine":
-  print("Cool!")
+  st.write("Cool!")
 else:
-  print("Poor guy, deal with it...hehe")
+  st.write("Poor guy, deal with it...hehe")
